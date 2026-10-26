@@ -29,7 +29,7 @@ content ends up in the HTML.
 ## Result
 
 `next@16.5.0-canary.27` (bundled React `19.3.0-canary-ab0d927f-20261020`), `react@19.3.1`. Same
-result on `next@16.3.8` and `next@16.4.3`.
+result on `next@16.3.8` and `next@16.4.3`, and with `partialPrefetching` set to `true` or `false`.
 
 ```
 /        Twitterbot (htmlLimitedBots default) | fallback in <main>: true  | items in <main>: false | items in hidden div: true
