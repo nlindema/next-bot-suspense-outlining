@@ -8,7 +8,7 @@ const AGENTS = {
   "Chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
 };
 
-for (const path of ["/", "/small/"]) {
+for (const path of ["/", "/small/", "/slow/"]) {
   for (const [name, ua] of Object.entries(AGENTS)) {
     const res = await fetch(BASE + path, { headers: { "user-agent": ua } });
     const html = await res.text();
